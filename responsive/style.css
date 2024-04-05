@@ -1,0 +1,30 @@
+/*style de base de la navbar*/
+.navbar
+{
+background-color: #333;
+overflow: hidden;
+}
+
+.nav a{
+    float: left;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+
+/*medias query pour les ecran de petite taille*/
+
+@media screen and (max-width: 600px)
+   {.navbar a
+    {
+     float: none;
+     display: block;
+     text-align: center;
+   }
+
+}
+    
